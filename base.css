@@ -1,0 +1,62 @@
+:root{
+       --white-color:#fff;
+       --black-color:#000;
+       --text-color:#333;
+       --bg-btn: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
+       --bg-section: linear-gradient(to right, #fa9e1b, #8d4fff);
+       --offer-color: #eda84a;
+       --border: linear-gradient(to right, #fa9e1b, #8d4fff);
+
+}
+* { 
+       box-sizing: inherit;
+
+}
+
+html {
+       font-size: 100%;
+       line-height: 1.6rem;
+       font-family: 'Roboto', sans-serif;
+       box-sizing: border-box;
+}
+
+.grid{
+       width: 100%;
+       max-width: 1200px;
+       margin: 0 auto;
+       display: block;
+}
+.grid__full-with{
+       width: 100%;
+}
+.grid__row{
+       display: flex;
+       flex-wrap: wrap;
+}
+
+@keyframes fadeIn{
+       from{
+              opacity: 0.7;
+       }
+       to{
+              opacity: 0.9;
+       }
+       
+       to{
+              opacity: 1;
+       }
+}
+@keyframes fade{
+       from{
+              opacity: 1;
+       }
+       to{
+              opacity: .8;
+       }
+       to{
+              opacity: .6;
+       }
+}
+
+
+
